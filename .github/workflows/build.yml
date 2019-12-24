@@ -26,6 +26,7 @@ jobs:
         rpm_apiname: "Test-RPM"
         rpm_version: "1.5.0"
         rpm_requires: "perl"
+        git_enable: true
         git_token: ${{ secrets.git_token }}
     
     - name: Deploy RPM
